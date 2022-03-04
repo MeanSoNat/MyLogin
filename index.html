@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>List data</title>
+</head>
+<body>
+
+    <div class="form">
+        <h3>
+            Register
+        </h3>
+        <form name="form_insert" method="post" action="insertstudent_data.php">
+            First_Name:<input type="text" name="firstname">
+            <br>
+            Last_Name:<input type="text" name="lastname">
+            <br>
+            StudentID:<input type="text" name="studentid">
+            <br>
+            Password:<input type="password" name="password">
+            <input class=insertbutton type="submit" value="insert">                
+        </form>
+        <br>
+        <a class=insertbutton href="list.php" >To list</a>
+        <a class=insertbutton href="login.html" >To login</a>
+        
+    </div>
+    
+</body>
+</html>
