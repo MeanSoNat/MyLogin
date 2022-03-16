@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login_page</title>
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
+    
 </head>
 <body>
+    
     <form name="form" method="post" action="checklogin.php" >
-        EnterID:<input type="text" name="getid">
+        <label color="white">Username:</label> <input type="text" name="Username">
         <br>
-        Enter_Pass:<input type="password" name="getpassword">
+        <label color="white">Password:</label> <input type="password" name="getpassword">
     <input type="submit" value="Login">
+
     </form>
-    <a href="index.html">To register</a>
+    <a href="forgotpassword.html">Forgot password?</a>
+    <br>
+    Not a member? <a href="index.html">Signup now</a>
+
+
 </body>
 </html>

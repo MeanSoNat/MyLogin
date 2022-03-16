@@ -20,9 +20,8 @@ echo "<table>";
     while ($data = mysqli_fetch_array($res)){
         echo "<tr>";
             echo "<td>{$data['ID']}</td>";
-            echo "<td>{$data['FName_student']}</td>";
-            echo "<td>{$data['LName_student']}</td>";
-            echo "<td>{$data['STID']}</td>";
+            echo "<td>{$data['Username']}</td>";
+            echo "<td>{$data['Name']}</td>";
         echo "</tr>";
     }
 echo "</table>";

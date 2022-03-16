@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
     <title>List data</title>
 </head>
 <body>
 
     <div class="form">
         <h3>
-            Register
+            Signup
         </h3>
         <form name="form_insert" method="post" action="insertstudent_data.php">
-            First_Name:<input type="text" name="firstname">
+            Username :<input type="text" name="Username">
             <br>
-            Last_Name:<input type="text" name="lastname">
+            Name :    <input type="text" name="Name">
             <br>
-            StudentID:<input type="text" name="studentid">
+            Password :<input type="password" name="Password">
             <br>
-            Password:<input type="password" name="password">
+            Tel. :    <input type="text" name="Tel">
+            <br>
+            Email :   <input type="text" name="Email">
+            <br>
+            Question(case-> Forgot password) :<input type="text" name="Question">
+            <br>
+            Answer :<input type="text" name="Answer">
+
             <input class=insertbutton type="submit" value="insert">                
         </form>
         <br>
